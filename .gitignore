@@ -1,0 +1,72 @@
+# =====================
+# Python build / cache
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+rag_llms/
+rag_llms/myenv311/
+*/.venv/
+*/venv/
+
+# Logs and temp files
+*.log
+*.out
+*.tmp
+*.pid
+*.gz
+*.swp
+
+# =====================
+# Streamlit / LangChain
+# =====================
+.streamlit/
+.vectorstore/
+vectorstore_chroma/
+vectorstore_test/
+storage/
+chroma/
+chroma.sqlite*
+*.chroma
+*.sqlite*
+
+# =====================
+# Environment & config
+# =====================
+.env
+*.env
+.env.*
+.envrc
+.DS_Store
+Thumbs.db
+
+# =====================
+# Jupyter / Notebooks
+# =====================
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.nbconvert/
+*.nbtemp/
+
+# =====================
+# VS Code / IDE
+# =====================
+.vscode/
+.idea/
+*.code-workspace
+
+# =====================
+# OS metadata
+# =====================
+.DS_Store
+desktop.ini
+data_extraction_llms.ipynb
